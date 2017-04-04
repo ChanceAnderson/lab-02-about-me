@@ -1,3 +1,27 @@
 * {
-  text-align: center; 
+  text-align: center;
+}
+.box {
+  width: 500px;
+  height: 675px;
+  background-color: #112233;
+  margin: auto;
+  border-radius: 10px;
+}
+body {
+  background-color: #F0F1F5;
+
+}
+h1 {
+  color: white;
+  padding-top: 20px;
+  font-family: 'Cabin', sans-serif;
+}
+p {
+  color: white;
+  font-family: 'Cabin', sans-serif;
+}
+h2 {
+  color: white;
+  font-family: 'Cabin', sans-serif;
 }
