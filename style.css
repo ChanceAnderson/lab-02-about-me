@@ -1,5 +1,4 @@
-body {
-  background-image: url('background-image.jpg');
-  min-width: 100%;
-  min-height: 100%;
+* {
+  text-align: center;
+  text-decoration:none;
 }
