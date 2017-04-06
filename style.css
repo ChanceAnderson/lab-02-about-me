@@ -1,27 +1,26 @@
 * {
-  text-align: center;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
-.box {
-  width: 500px;
-  height: 675px;
-  background-color: #112233;
-  margin: auto;
-  border-radius: 10px;
-}
-body {
-  background-color: #E8F4FA;
 
+html {
+  height: 100%;
+  width: 100%;
 }
-h1 {
-  color: white;
-  padding-top: 20px;
-  font-family: 'Cabin', sans-serif;
+
+body {
+  height: 100%;
+  width: 100%;
+  background-color: #E8F4FA;
 }
-p {
-  color: white;
-  font-family: 'Cabin', sans-serif;
+
+.clear-fix {
+  clear: both;
 }
-h2 {
-  color: white;
-  font-family: 'Cabin', sans-serif;
+#box {
+  width: 30%;
+  height: 90%;
+  background-color: gray;
 }
