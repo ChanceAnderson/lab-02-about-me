@@ -1,4 +1,5 @@
 'use strict';
+function funcSushi(){
 var numCorrect = 0;
 
 var sushi = prompt('Do you think I like sushi?');
@@ -10,9 +11,11 @@ if (sushi.toLowerCase() == 'yes'){
 } else {
   alert('Please type Yes or No');
 };
-
 console.log('Do I like sushi?');
+return sushi;
+}
 
+function funcFood() {
 var food = prompt('Do you think I like eating?');
 if (food.toLowerCase() == 'yes'){
   alert('You were correct!');
@@ -24,7 +27,9 @@ if (food.toLowerCase() == 'yes'){
 };
 
 console.log('Do I like to eat?');
-
+return food;
+};
+function funcDogs(){
 var dogs = prompt('Do you think I like dogs?');
 if (dogs.toLowerCase() == 'yes'){
   alert('You were correct!');
@@ -36,7 +41,10 @@ if (dogs.toLowerCase() == 'yes'){
 };
 
 console.log('Do I like dogs?');
+return dogs;
+}
 
+function tv(){
 var tv = prompt('Do you think I like TV?');
 if (tv.toLowerCase() == 'yes'){
   alert('Wrong!');
@@ -48,7 +56,10 @@ if (tv.toLowerCase() == 'yes'){
 };
 
 console.log('Do I like watching tv?');
+return tv;
+}
 
+function funcCode(){
 var code = prompt('Do you think I like to code?');
 if (code.toLowerCase() == 'yes'){
   alert('You were correct! Coding is fun!');
@@ -60,7 +71,9 @@ if (code.toLowerCase() == 'yes'){
 };
 
 console.log('Do I like to code?');
-
+return code;
+}
+function funcFavNum(){
 var favNum = 11;
 for (var numGuesses = 4; numGuesses >0; numGuesses--){
   var userGuess = prompt('What\'s my favorite number?');
@@ -76,8 +89,17 @@ for (var numGuesses = 4; numGuesses >0; numGuesses--){
       userGuess;
     }
 }
+}
+function funcPlaces (){
 var places = ['Bainbridge', 'Washington', 'United States'];
 var residence = prompt('Guess where I live!');
 for (var guesses = 6; guesses<6; guesses--){
     if(residence.trim().toLowerCase() === places[]){}
 }
+}
+funcSushi();
+funcFood();
+funcDogs();
+funcCode();
+funcFavNum();
+funcPlaces();
